@@ -1,3 +1,5 @@
+// from:
+// https://gist.github.com/Keeguon/2310008
 countryCodes = [ 
   {name: 'Afghanistan', code: 'AF'}, 
   {name: 'Åland Islands', code: 'AX'}, 
@@ -52,7 +54,7 @@ countryCodes = [
   {name: 'Congo, The Democratic Republic of the', code: 'CD'}, 
   {name: 'Cook Islands', code: 'CK'}, 
   {name: 'Costa Rica', code: 'CR'}, 
-  {name: 'Cote D\'Ivoire', code: 'CI'}, 
+  {name: 'Cote D’Ivoire', code: 'CI'}, 
   {name: 'Croatia', code: 'HR'}, 
   {name: 'Cuba', code: 'CU'}, 
   {name: 'Cyprus', code: 'CY'}, 
@@ -114,11 +116,11 @@ countryCodes = [
   {name: 'Kazakhstan', code: 'KZ'}, 
   {name: 'Kenya', code: 'KE'}, 
   {name: 'Kiribati', code: 'KI'}, 
-  {name: 'Korea, Democratic People\'S Republic of', code: 'KP'}, 
+  {name: 'Korea, Democratic People’s Republic of', code: 'KP'}, 
   {name: 'Korea, Republic of', code: 'KR'}, 
   {name: 'Kuwait', code: 'KW'}, 
   {name: 'Kyrgyzstan', code: 'KG'}, 
-  {name: 'Lao People\'S Democratic Republic', code: 'LA'}, 
+  {name: 'Lao People’s Democratic Republic', code: 'LA'}, 
   {name: 'Latvia', code: 'LV'}, 
   {name: 'Lebanon', code: 'LB'}, 
   {name: 'Lesotho', code: 'LS'}, 
