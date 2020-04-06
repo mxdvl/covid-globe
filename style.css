@@ -1,0 +1,92 @@
+html {
+  --light: hsl(30deg, 60%, 96%);
+  font-family:  "San Fransisco", sans-serif;
+  -webkit-font-smoothing: antialias;
+}
+
+body, html {
+  margin: 0;
+  overflow: hidden;
+}
+
+#globe, #theater {
+  position: absolute;
+}
+
+#theater {
+  right: 20px;
+  bottom: 20px;
+  background: hsla(30deg, 60%, 96%, 0.12);
+  z-index: 10;
+  /*height: 60px;*/
+  /*width: 180px;*/
+  padding: 6px;
+  color: var(--light);
+}
+
+a {
+  color: hsl(80deg, 72%, 84%)
+}
+
+h3 {
+  position: absolute;
+  color: var(--light);
+  font-weight: 300;
+  margin: 0;
+  left: 10px;
+  top: 10px;
+  padding: 10px;
+  background-color: hsla(0deg, 0%, 0%, 0.6);
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: transparent;
+  pointer-events: none;
+
+  color: var(--light);
+  
+  margin: 0;
+  padding: 0;
+
+  /*animation: fadeout 120ms both;*/
+}
+
+li {
+  display: block;
+
+  position: absolute;
+  top:50%;
+  left: 50%;
+  width: 100vw;
+  padding: 0;
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+  /*height: 200px;*/
+  /*line-height: 200px;*/
+  text-align: center;
+
+  transform: translate(-50%,-50%);
+  
+  background: black;
+  pointer-events: none;
+  animation: fadeout 600ms both;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    color: black;
+    opacity: 1;
+  }
+  100% {
+    color: black;
+    opacity: 0;
+  }
+}

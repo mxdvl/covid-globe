@@ -111,11 +111,12 @@ function handleCursor(event) {
 }
 
 function updateCurrent() {
-  theater.innerHTML = currentObject.key
+  theater.innerHTML = countryCodes.filter(e => e.code === currentObject.key)[0].name
+    // + " [" + (currentObject.key) + ']' +
     + " <br> "
-    + currentObject.confirmed + " confirmed cases"
+    + " <strong>" + currentObject.confirmed + "</strong> confirmed cases"
     + " <br> "
-    + Date.parse(currentObject.date).toString("dddd d MMMM, HH:mm")
+    + Date.parse(currentObject.date).toString("dddd d MMMM")
   ;
 }
 
