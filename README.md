@@ -3,4 +3,4 @@
 ## TODO
 - [X] Country to lat-long
 - [X] Colour by intensity
-- [ ] Clean up code
+- [ ] Set up webpack / actual modules
